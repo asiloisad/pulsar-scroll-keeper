@@ -1,7 +1,7 @@
 {
-  "name": "screen-position",
+  "name": "scroll-keeper",
   "description": "Try to keep your focus on the same point as you resize pane",
-  "repository": "https://github.com/asiloisad/pulsar-screen-position",
+  "repository": "https://github.com/asiloisad/pulsar-scroll-keeper",
   "keywords": [
     "screen",
     "position"
