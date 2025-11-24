@@ -6,10 +6,20 @@
     "screen",
     "position"
   ],
-  "version": "2.0.0",
+  "version": "2.1.0",
   "license": "MIT",
   "engines": {
     "atom": ">=1.100.0 <2.0.0"
   },
-  "main": "./lib/main"
+  "main": "./lib/main",
+  "configSchema": {
+    "debounceSoftWrap": {
+      "title": "Debounce Soft Wrap (ms)",
+      "description": "Delay in milliseconds before recalculating soft-wrap after resize stops. Higher values reduce CPU usage during resize but delay the final wrap adjustment.",
+      "type": "integer",
+      "default": 150,
+      "minimum": 0,
+      "maximum": 1000
+    }
+  }
 }
