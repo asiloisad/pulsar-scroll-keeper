@@ -1,6 +1,6 @@
 {
   "name": "scroll-keeper",
-  "description": "Try to keep your focus on the same point as you resize pane",
+  "description": "Maintain scroll position during pane resizing",
   "repository": "https://github.com/asiloisad/pulsar-scroll-keeper",
   "keywords": [
     "screen",
