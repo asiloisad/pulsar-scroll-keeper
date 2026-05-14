@@ -17,7 +17,7 @@
       "title": "Debounce Soft Wrap (ms)",
       "description": "Delay in milliseconds before recalculating soft-wrap after resize stops. Higher values reduce CPU usage during resize but delay the final wrap adjustment.",
       "type": "integer",
-      "default": 150,
+      "default": 100,
       "minimum": 0,
       "maximum": 1000
     }
